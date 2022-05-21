@@ -1,3 +1,7 @@
+/*
+	Sorts given ages by user input
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

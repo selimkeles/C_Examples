@@ -1,3 +1,7 @@
+/*
+	Finds catalan numbers
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -11,10 +11,12 @@ int main(int argc, char *argv[]) {
 	
 
 	printf("\nA=	%d", A);
+	printf("\n&A=	%d", &A);
 	printf("\nA+3=	%d", A+3);
+	printf("\n&A+3=	%d", &A+3);
 	printf("\n&A[0]=	%d", &A[0]);
 	printf("\n&A[1]=	%d", &A[1]);
-	printf("\n&a[2]=	%d", &A[2]);
+	printf("\n&A[2]=	%d", &A[2]);
 	printf("\n&A[3]=	%d", &A[3]);
 	printf("\n&A[4]=	%d", &A[4]);
 	printf("\n&A[0]+3=%d", &A[0]+3);

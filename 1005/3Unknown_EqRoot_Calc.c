@@ -1,3 +1,9 @@
+ /*
+	Takes input from user of all 4 coefficient of third degree polynomial and gives the all three roots
+ */
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 int pow(int a, int b);

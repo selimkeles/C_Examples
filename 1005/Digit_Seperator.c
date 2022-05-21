@@ -11,15 +11,15 @@ int main() {
 	
 	if(x<100000 && x>9999){
 	
-	y=x;					// y'yi x'e eþitledik çünkü en son printf fonksiyonuyla þunu girmiþtiniz diyeceðiz ve x deðiþmiþ olacak bu yüzden y deðerini kullanýcýdan aldýðýmýz x deðerine sabitliyoruz 
+	y=x;					// y'yi x'e eï¿½itledik ï¿½ï¿½nkï¿½ en son printf fonksiyonuyla ï¿½unu girmiï¿½tiniz diyeceï¿½iz ve x deï¿½iï¿½miï¿½ olacak bu yï¿½zden y deï¿½erini kullanï¿½cï¿½dan aldï¿½ï¿½ï¿½mï¿½z x deï¿½erine sabitliyoruz 
 	
 	f=x%10;
 	x-=f;
-	x/=10;					//ilk basamaðýn degerini buldurup f e yazdýrdýk diðer basamaklara devam edebilmek için f'i x'ten çýkardýk
+	x/=10;					//ilk basamaï¿½ï¿½n degerini buldurup f e yazdï¿½rdï¿½k diï¿½er basamaklara devam edebilmek iï¿½in f'i x'ten ï¿½ï¿½kardï¿½k
 	
 	d=x%10;
 	x-=d;
-	x/=10;					//Her basamak için tekrarlýyoruz
+	x/=10;					//Her basamak iï¿½in tekrarlï¿½yoruz
 	
 	c=x%10;
 	x-=c;
@@ -29,7 +29,7 @@ int main() {
 	x-=b;
 	x/=10;
 	
-	a=x%10;					//son basamakta çýkarmna ve bölme yapmamýza gerek yok çünkü sonraki basamaða gitmeyceðiz
+	a=x%10;					//son basamakta ï¿½ï¿½karmna ve bï¿½lme yapmamï¿½za gerek yok ï¿½ï¿½nkï¿½ sonraki basamaï¿½a gitmeyceï¿½iz
 	
 	printf("%d=		%dx10^4+	%dx10^3+	%dx10^2+	%dx10+	%d", y,a,b,c,d,f);
 	

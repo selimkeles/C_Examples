@@ -1,10 +1,6 @@
-/*#include <stdio.h>
-void main(void)
-{
-char *s;
-s = "This program is correct.";
-printf(s);
-}	*/
+/*
+	Shuffles 52 Desk
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
